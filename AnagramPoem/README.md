@@ -1,6 +1,6 @@
 
-#####   DEVELOPER TEST
-#####   ANAGRAM EXERCISE
+##   DEVELOPER TEST
+##   ANAGRAM EXERCISE
 
 As specified in Wikipedia, an anagram is a type of word play, the
 result of rearranging the letters of a word or phrase to produce a
@@ -26,7 +26,7 @@ you should either (a) include the dependencies with the delivered
 solution, or, (b) include a build solution in either Ant or Maven that
 will allow us to resolve all required dependencies.
 
-# Assumptions
+## Assumptions
         
     -   It is assumed that a poem must have at least two lines, 
         if it has less it will be considered as not valid, 
@@ -36,24 +36,24 @@ will allow us to resolve all required dependencies.
         anagram of all other lines or each verse is an
         anagram of all other verses in the poem.
         
-# Requirements
+## Requirements
 	
      -  maven 3.5.3
      -  jdk 8
 	
-# Generation
+## Generation
 	
      To generate the package it has to execute the next command
      mvn package
 
-# Execution
+## Execution
 
      java -jar target/anagram_poem-1.0.jar {{POEM FILEPATH}}
 	
      Sample:
      java -jar target/anagram_poem-1.0.jar poema.txt
 	
-# Exit
+## Exit
 
       - In case that the poem is anagrammatic the output will be
 	
