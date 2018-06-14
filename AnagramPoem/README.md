@@ -1,7 +1,30 @@
-################################
-#####   DEVELOPER TEST     #####
-#####   ANAGRAM EXERCISE   #####
-################################
+
+#####   DEVELOPER TEST
+#####   ANAGRAM EXERCISE
+
+As specified in Wikipedia, an anagram is a type of word play, the
+result of rearranging the letters of a word or phrase to produce a
+new word or phrase, using all the original letters exactly once; e.g.,
+orchestra = carthorse, A decimal point = I&#39;m a dot in place.
+An anagramic poem is a poem where each line or each verse is an
+anagram of all other lines or verses in the poem. Please prepare
+Java code that, given a poem, returns a Boolean value indicating
+whether or not the poem is an anagramic poem.
+Your example should include the following:
+
+- Unit tests
+- Argument validation
+- Error handling
+- Comments as deemed necessary
+- Documentation on how to run and test the code
+- Any assumptions that you have made
+- The exercise should be resolved using objects.
+
+We should be able to run your program as delivered (i.e. without
+modifying any code). If any third-party dependencies are required,
+you should either (a) include the dependencies with the delivered
+solution, or, (b) include a build solution in either Ant or Maven that
+will allow us to resolve all required dependencies.
 
 # Assumptions
         
